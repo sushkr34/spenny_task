@@ -5,6 +5,6 @@ Configuration requirements :-
 Install modules :-  
     npm install
 
-To start the local server 
+To start the local server :-
     npm start 
 
