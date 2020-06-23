@@ -1,0 +1,72 @@
+.cardbalance_root{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+  }
+  .card_Balance {
+    font-family: Avenir;
+    font-size: 13px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    color: #77869e;
+  }
+
+  .income {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+  }
+
+  .balance_Value {
+    font-family: Avenir;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.85px;
+    color: #042c5c;
+    padding: 12px 12px 0px 0px
+  }
+
+  .income_Value {
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    color: #1bc773;
+    margin: auto;
+    padding-left: 12px;
+
+  }
+
+  .expense_Value {
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    color: #f24750;
+    margin: auto;
+    padding-left: 12px;
+}
+.up_Arrow {
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    background-color: #e2f2eb;
+  }
+  .down_Arrow {
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    background-color: #f6e6e7;
+  }

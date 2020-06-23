@@ -1,0 +1,97 @@
+.spending_root {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px 24px 24px;
+}
+
+.spending_heading {
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 0.39px;
+    color: #042c5c;
+}
+
+.spending_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.spending_card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+.spending_card .image_container_red{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #ff7e87;
+    color: #fff;
+}
+
+.spending_card .image_container_green{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #00d793;
+    color: #fff;
+}
+
+.image_container_red img,.image_container_green img{
+    width: 16px;
+    height: 16px;
+    padding: 12px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 64px);
+    align-items: center;
+}
+
+.text_container {
+    margin-left: 16px;
+}
+
+.text_container .heading {
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #042c5c;
+    display: block;
+}
+
+.text_container .date {
+    font-family: Avenir-Roman;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.27px;
+    color: #77869e;
+}
+
+.spending_card .total {
+    font-size: 18px;
+    font-weight: 750;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    color: #ee5a55;
+}
